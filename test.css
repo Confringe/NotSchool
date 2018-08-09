@@ -1,0 +1,52 @@
+.things {
+    color: rgb(255, 255, 255);
+    font-family: Retro Computer;
+    font-size: 32px;
+    height: 100px;
+    padding-right: 40px;
+    /* margin-left: 40px; */
+    /* margin-top: 45%;
+    margin-right: 45%;
+    margin-bottom: 45%; */
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.divthing {
+    border: 5px;
+    border-color: rgba(255, 255, 255, 0.534);
+    border-style: solid;
+    /* height: 20%; */
+    /* width: 20%; */
+    /* margin: 0 auto; */
+    /* margin-top: 250px; */
+    grid-area: 2/2/2/2;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-gap: 50px;
+}
+
+.adiv {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 10fr 1fr; 
+    /* grid-gap: 100px; */
+}
+
+body {
+    /* background-color: #648a48; */
+    background: linear-gradient(rgb(24, 24, 24), rgb(73, 73, 73));
+    display: table;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tableable {
+    grid-area: 2/2/2/2;
+}
